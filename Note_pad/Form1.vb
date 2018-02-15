@@ -8,7 +8,7 @@ Imports iTextSharp.text
 Public Class Form1
     Private Sub TimeAndDateToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles TimeAndDateToolStripMenuItem.Click
         Rtd_bx.Text = System.DateTime.Now.ToString
-        'Hello World
+
     End Sub
 
     Private Sub NewToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NewToolStripMenuItem.Click
